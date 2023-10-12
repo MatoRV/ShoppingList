@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shopping-list</string>
+    <string name="text_button_addList">Agregar artículo</string>
+    <string name="tvArt1">Huevo</string>
+    <string name="btArt">Añadir</string>
+    <string name="tvArt4">Agua</string>
+    <string name="tvArt5">Pizza</string>
+    <string name="tvArt6">Tomate</string>
+    <string name="tvArt7">Lechuga</string>
+    <string name="tvArt8">Coca-Cola</string>
+    <string name="tvArt9">Servilletas</string>
+    <string name="tvArt10">Atún</string>
+    <string name="tvArt3">Pan</string>
+    <string name="tvArt2">Queso</string>
+</resources>

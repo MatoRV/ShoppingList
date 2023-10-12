@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tvArt1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt2"
+        app:layout_constraintEnd_toStartOf="@+id/btArt1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btArt1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        android:onClick="addArt1"/>
+
+    <TextView
+        android:id="@+id/tvArt2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt3"
+        app:layout_constraintEnd_toStartOf="@+id/btArt2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt1" />
+
+    <Button
+        android:id="@+id/btArt2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt2"
+        app:layout_constraintTop_toBottomOf="@+id/btArt1"
+        android:onClick="addArt2"/>
+
+    <TextView
+        android:id="@+id/tvArt3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt4"
+        app:layout_constraintEnd_toStartOf="@+id/btArt3"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt2" />
+
+    <Button
+        android:id="@+id/btArt3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt3"
+        app:layout_constraintTop_toBottomOf="@+id/btArt2"
+        android:onClick="addArt3"/>
+
+    <Button
+        android:id="@+id/btArt4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt4"
+        app:layout_constraintTop_toBottomOf="@+id/btArt3"
+        android:onClick="addArt4"/>
+
+    <Button
+        android:id="@+id/btArt5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt5"
+        app:layout_constraintTop_toBottomOf="@+id/btArt4"
+        android:onClick="addArt5"/>
+
+    <Button
+        android:id="@+id/btArt6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt6"
+        app:layout_constraintTop_toBottomOf="@+id/btArt5"
+        android:onClick="addArt6"/>
+
+    <Button
+        android:id="@+id/btArt7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt7"
+        app:layout_constraintTop_toBottomOf="@+id/btArt6"
+        android:onClick="addArt7"/>
+
+    <Button
+        android:id="@+id/btArt8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt8"
+        app:layout_constraintTop_toBottomOf="@+id/btArt7"
+        android:onClick="addArt8"/>
+
+    <Button
+        android:id="@+id/btArt9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toTopOf="@+id/btArt10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt9"
+        app:layout_constraintTop_toBottomOf="@+id/btArt8"
+        android:onClick="addArt9"/>
+
+    <Button
+        android:id="@+id/btArt10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/btArt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvArt10"
+        app:layout_constraintTop_toBottomOf="@+id/btArt9"
+        android:onClick="addArt10"/>
+
+    <TextView
+        android:id="@+id/tvArt4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt4"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt5"
+        app:layout_constraintEnd_toStartOf="@+id/btArt4"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt3" />
+
+    <TextView
+        android:id="@+id/tvArt5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt5"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt6"
+        app:layout_constraintEnd_toStartOf="@+id/btArt5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt4" />
+
+    <TextView
+        android:id="@+id/tvArt6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt7"
+        app:layout_constraintEnd_toStartOf="@+id/btArt6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt5" />
+
+    <TextView
+        android:id="@+id/tvArt7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt7"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt8"
+        app:layout_constraintEnd_toStartOf="@+id/btArt7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt6" />
+
+    <TextView
+        android:id="@+id/tvArt8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt8"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt9"
+        app:layout_constraintEnd_toStartOf="@+id/btArt8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt7" />
+
+    <TextView
+        android:id="@+id/tvArt9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt9"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvArt10"
+        app:layout_constraintEnd_toStartOf="@+id/btArt9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt8" />
+
+    <TextView
+        android:id="@+id/tvArt10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/tvArt10"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btArt10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArt9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
